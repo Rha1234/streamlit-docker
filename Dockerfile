@@ -1,9 +1,6 @@
 #PythonのDockerイメージを指定
 FROM python:3.8.7-slim
 
-#コンテナのポート指定
-EXPOSE 8501
-
 #イメージの/app内をワークディレクトリに設定
 WORKDIR /app
 
